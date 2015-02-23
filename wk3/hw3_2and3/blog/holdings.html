@@ -1,0 +1,16 @@
+<div id="designerLayoutRoot" class="sfContentViews sfSingleContentView" style="max-height: 400px; overflow: auto; ">
+<ol>        
+    <li class="sfFormCtrl">
+        <asp:Label runat="server" AssociatedControlID="MemberMessage" CssClass="sfTxtLbl">Member Message</asp:Label>
+        <div class="sfExample">Additional instructions to AAPL Members. This will be viewed in the left sidebar of the widget</div>
+        <sfFields:HtmlField ID="MemberMessage" DisplayMode="Write" FixCursorIssue="true" runat="server"></sfFields:HtmlField>
+    </li>
+    
+    <li class="sfFormCtrl">
+        <asp:Label runat="server" AssociatedControlID="NonMemberMessage" CssClass="sfTxtLbl">Non-Member Message</asp:Label>
+        <div class="sfExample">Additional instructions to AAPL Non-Members. This will be viewed in the left sidebar of the widget</div>
+        <sfFields:HtmlField ID="NonMemberMessage" DisplayMode="Write" FixCursorIssue="true" runat="server"></sfFields:HtmlField>
+    </li>
+    
+</ol>
+</div>
